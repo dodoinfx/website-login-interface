@@ -1,0 +1,74 @@
+body {
+    background-image: linear-gradient(to bottom, #1b046d, #00c3ff, #50ff76);
+    font-family: Arial, sans-serif;
+  }
+  
+  .login-container {
+    width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px #000;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 2px solid #000;
+    font-size: 16px;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #333;
+  }
+  
+  .social-login {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .social-login p {
+    margin-right: 20px;
+  }
+  
+  .social-login a {
+    margin-right: 20px;
+  }
+  
+  .social-login img {
+    width: 40px;
+    height: 40px;
+  }
+
+  input[type="facebook.png"]:hover {
+    background-color: rgba(163, 136, 136, 0.26);
+  }
+  
